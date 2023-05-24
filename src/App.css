@@ -1,38 +1,153 @@
 .App {
   text-align: center;
+
+  
+  
+}
+.NavBar
+{
+  background-color:crimson;
+  height: 80%;
+  height: 60%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.List
+{
+  display:inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ListOne
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  margin-right: 25px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer
+{
+  height: 80%;
+  background-color: chocolate;
+}
+img{
+  width: 60%;
+  height: 60%;
+  color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border
+{
+  border: 20px solid black ;
+  background-color: blue;
+  
+
 }
+
+
+button
+{
+  background-color: green;
+  
+  
+}
+
+input{
+    background-color: azure;
+}
+.label
+{
+  text-align: left;
+}
+label
+{
+  text-align: left;
+}
+
+.main
+{
+  text-align: center;
+}
+
+
+li{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+
+
+
+      /* for desktop */
+      .whatsapp_float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+    .whatsapp-icon {
+        margin-top: 16px;
+    }
+
+    /* for mobile */
+    @media screen and (max-width: 767px) {
+        .whatsapp-icon {
+            margin-top: 10px;
+        }
+
+        .whatsapp_float {
+            width: 40px;
+            height: 40px;
+            bottom: 20px;
+            right: 10px;
+            font-size: 22px;
+        }
+    }
+
+     /* for desktop */
+     .whatsapp_float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+  }
+
+  .whatsapp-icon {
+      margin-top: 16px;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 767px) {
+      .whatsapp-icon {
+          margin-top: 10px;
+      }
+
+      .whatsapp_float {
+          width: 40px;
+          height: 40px;
+          bottom: 20px;
+          right: 10px;
+          font-size: 22px;
+      }
+  }
